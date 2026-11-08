@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "9bb83752b155b9989a9d31a898fd8ee0e17e7ed26df36bb459625875a4505778",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.addevent.com/"
+  ],
+  "id": "addevent-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AddEvent MCP setup and connection checker",
+  "description": "Generate AddEvent MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "addevent",
+  "appName": "AddEvent",
+  "providerDocs": "https://docs.addevent.com/",
+  "providerWebsite": "https://www.addevent.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.addevent.com/reference/authentication",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-addevent-mcp"
+}
